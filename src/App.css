@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -35,4 +34,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pattern-container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pattern-navigator a {
+  margin-right: 6px;
 }
