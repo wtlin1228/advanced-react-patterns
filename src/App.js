@@ -1,6 +1,12 @@
 import React from 'react'
 import { Router, Link } from '@reach/router'
-import { Pattern1, Pattern2, Pattern3, Pattern4 } from 'components'
+import {
+  Pattern1,
+  Pattern2,
+  Pattern3,
+  Pattern4,
+  Pattern5,
+} from 'components'
 import './App.css'
 
 function App() {
@@ -29,6 +35,7 @@ function App() {
           <Pattern2 path="/02" />
           <Pattern3 path="/03" />
           <Pattern4 path="/04" />
+          <Pattern5 path="/05" />
         </Router>
       </div>
     </div>
