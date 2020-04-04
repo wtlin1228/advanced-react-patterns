@@ -1,6 +1,6 @@
 import React from 'react'
 import { Router, Link } from '@reach/router'
-import { Pattern1 } from 'components'
+import { Pattern1, Pattern2 } from 'components'
 import './App.css'
 
 function App() {
@@ -26,6 +26,7 @@ function App() {
       <div className="pattern-container">
         <Router>
           <Pattern1 path="/01" />
+          <Pattern2 path="/02" />
         </Router>
       </div>
     </div>
