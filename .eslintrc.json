@@ -17,7 +17,15 @@
     "jest/no-focused-tests": "error",
     "jest/no-identical-title": "error",
     "jest/prefer-to-have-length": "warn",
-    "jest/valid-expect": "error"
+    "jest/valid-expect": "error",
+    "no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_.+|^ignore.+",
+        "varsIgnorePattern": "^_.+|^ignore.+",
+        "args": "after-used"
+      }
+    ]
   },
   "parser": "babel-eslint",
   "plugins": ["react", "import", "jsx-a11y", "react-hooks", "jest"],
