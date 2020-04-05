@@ -8,6 +8,7 @@ import {
   Pattern5,
   Pattern6,
   Pattern7,
+  Pattern8,
 } from 'components'
 import './App.css'
 
@@ -40,6 +41,7 @@ function App() {
           <Pattern5 path="/05" />
           <Pattern6 path="/06" />
           <Pattern7 path="/07" />
+          <Pattern7 path="/08" />
         </Router>
       </div>
     </div>
